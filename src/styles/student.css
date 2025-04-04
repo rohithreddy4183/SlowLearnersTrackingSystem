@@ -1,0 +1,120 @@
+.student-dashboard {
+  min-height: 100vh;
+  background-color: #fffaf0;
+}
+
+.student-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.student-content h1 {
+  color: #ff6600;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.student-welcome {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.status-summary {
+  margin-bottom: 30px;
+}
+
+.status-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.status-card h3 {
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.status-good {
+  color: #2ecc71;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.status-slow {
+  color: #e74c3c;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.performance-chart {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.performance-chart h2 {
+  color: #ff6600;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.subject-details {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.subject-details h2 {
+  color: #ff6600;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.subject-table th,
+.subject-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.subject-table th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+  color: #555;
+}
+
+.slow-subject {
+  background-color: rgba(231, 76, 60, 0.05);
+}
+
+.student-not-found {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.student-not-found h2 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.student-not-found p {
+  color: #666;
+}
+
